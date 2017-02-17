@@ -879,8 +879,11 @@ enum msm_isp_ioctl_cmd_code {
 	MSM_ISP_UNMAP_BUF,
 	MSM_ISP_FETCH_ENG_MULTI_PASS_START,
 	MSM_ISP_MAP_BUF_START_MULTI_PASS_FE,
+<<<<<<< HEAD
+=======
 	MSM_ISP_CFG_HW_STATE,
 	MSM_ISP_AHB_CLK_CFG,
+>>>>>>> LA.UM.5.5.c1-08900-8x96.0
 };
 
 #define VIDIOC_MSM_VFE_REG_CFG \
@@ -990,6 +993,8 @@ enum msm_isp_ioctl_cmd_code {
 #define VIDIOC_MSM_ISP_MAP_BUF_START_MULTI_PASS_FE \
 	_IOWR('V', MSM_ISP_MAP_BUF_START_MULTI_PASS_FE, \
 		struct msm_vfe_fetch_eng_multi_pass_start)
+<<<<<<< HEAD
+=======
 
 #define VIDIOC_MSM_ISP_CFG_HW_STATE \
 	_IOWR('V', MSM_ISP_CFG_HW_STATE, \
@@ -997,4 +1002,5 @@ enum msm_isp_ioctl_cmd_code {
 
 #define VIDIOC_MSM_ISP_AHB_CLK_CFG \
 	_IOWR('V', MSM_ISP_AHB_CLK_CFG, struct msm_isp_ahb_clk_cfg)
+>>>>>>> LA.UM.5.5.c1-08900-8x96.0
 #endif /* __MSMB_ISP__ */
